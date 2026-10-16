@@ -1,0 +1,21 @@
+{
+  "fuente_metricas": "Lab1DataScience/notebooks/Lab1_Series_Tiempo.ipynb, sección 21, salida Total",
+  "serie": "Turista + Excursionista",
+  "modelo": "ARIMA(1,1,1) sobre log(Total)",
+  "train_inicio": "2009-01-01",
+  "train_fin": "2021-03-01",
+  "test_inicio": "2021-04-01",
+  "test_fin": "2026-06-01",
+  "n_train": 147,
+  "n_test": 63,
+  "mae_reproducido": 154494.16697109077,
+  "rmse_reproducido": 169119.57811977985,
+  "nivel_intervalo": 0.95,
+  "intervalo": "Predictivo puntual condicional al ARIMA; límites logarítmicos invertidos con exp; no es garantía simultánea ni incorpora cambios estructurales.",
+  "pronostico": "Retrospectivo sobre prueba, sin reajustar con sus datos; no es proyección posterior a junio de 2026.",
+  "complemento_24_meses": {
+    "ganador": "Holt-Winters",
+    "mae": 17581.15,
+    "rmse": 20776.87
+  }
+}

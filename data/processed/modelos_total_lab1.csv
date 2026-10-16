@@ -1,0 +1,8 @@
+modelo,mae,rmse
+"ARIMA(1,1,1)",154494.17,169119.58
+Suavizamiento simple,158777.32,173708.93
+Holt-Winters,178392.07,192824.93
+Naive estacional,207321.64,219663.87
+SARIMA fijo,216558.36,231312.73
+SARIMA automático,216923.04,234512.24
+Prophet,233091.52,246955.56
